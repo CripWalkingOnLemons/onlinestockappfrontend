@@ -275,9 +275,9 @@ function AppContent() {
 
 function App() {
   return (
-    <BrowserRouter basename="/onlinestockappfrontend">
+    <Router basename="/onlinestockappfrontend">
       <AppContent />
-    </BrowserRouter>
+    </Router>
   );
 }
 
