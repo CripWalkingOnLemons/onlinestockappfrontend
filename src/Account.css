@@ -1,0 +1,74 @@
+.account-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    color: white;
+    text-align: center;
+  }
+  
+  .account-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #00ccff;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #00ccff;
+    display: inline-block;
+    padding-bottom: 6px;
+  }
+  
+  .account-box {
+    background-color: #1e1f22;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0, 255, 255, 0.1);
+    text-align: left;
+  }
+  
+  .account-field {
+    margin-bottom: 20px;
+  }
+  
+  .account-field label {
+    display: block;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #5ecfff;
+    margin-bottom: 6px;
+  }
+  
+  .account-field p {
+    font-size: 1.1rem;
+    color: #e6e6e6;
+    margin: 0;
+  }
+  
+  .account-actions {
+    margin-top: 30px;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .account-btn {
+    background-color: #00ccff;
+    color: black;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .account-btn:hover {
+    background-color: #00aacc;
+  }
+  
+  .account-btn.danger {
+    background-color: #ff4d4d;
+    color: white;
+  }
+  
+  .account-btn.danger:hover {
+    background-color: #e60000;
+  }
+  

@@ -1,0 +1,9 @@
+.faq-page ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0px;
+  }
+  
+  .faq-page ul li {
+    margin: 20px; 
+  }
